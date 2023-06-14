@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0%;
+   background-image: url("calc.webp");
+   background-repeat: no-repeat;
+    background-size: 1660px;
+    color: white;
+}
+@keyframes animatedBorder {
+    0% {
+     
+      border-color: #9949db;
+    }
+    50% {
+      border-color: #dd4a4a;
+    }
+    100% {
+      border-color: #e372cd;
+    }
+  }
+  
+  .converter-container {
+    border: 2px solid;
+    border-radius: 80px;
+    padding: 50px;
+    animation: animatedBorder 3s infinite;
+    width: 500px;
+    margin: 0 auto;
+    color: white;
+  }
+  .select-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .select-wrapper select {
+    color: white;
+    background-color: #333;
+    /* Add any other styling you want for the dropdown */
+  }
+  
+  .select-wrapper select option {
+    color: black;
+  }
+
+  @media only screen and (max-width:1140px){
+    
+  }
+ 
+  
+  
+  
